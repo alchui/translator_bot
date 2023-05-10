@@ -2,9 +2,7 @@
 const { Client, IntentsBitField } = require("discord.js");
 require("dotenv").config();
 
-const user_translate = require("../utils/user_translate");
 const owl_translate = require("./owl_translate");
-const translate = require("../utils/translate");
 const channel_translate = require("./channel_translate");
 
 const main = process.env;
